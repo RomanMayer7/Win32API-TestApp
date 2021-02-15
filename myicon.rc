@@ -3,6 +3,25 @@
 IDI_MYICON ICON "my_icon.ico"
 
 
+//Example of Creating Menu from the resource file
+//--------------------------------------------------------
+IDR_MYMENU MENU
+BEGIN
+ POPUP "&File"
+BEGIN
+ MENUITEM "E&xit", ID_FILE_EXIT
+END
+POPUP "&Stuff"
+BEGIN
+ MENUITEM "&Go", ID_STUFF_GO
+ MENUITEM "G&o somewhere else", 0, GRAYED
+END
+POPUP "&Help"
+BEGIN
+ MENUITEM "&About", ID_HELP_ABOUT
+END
+END
+//----------------------------------------------------
 
 IDD_ABOUT DIALOG DISCARDABLE 0, 0, 239, 66
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU

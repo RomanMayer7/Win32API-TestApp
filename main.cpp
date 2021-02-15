@@ -57,6 +57,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
     {
         /*An alternative to using a menu resource is to create one on the fly (or when your program runs). This is a bit more
           work programming wise, but adds flexibility and is sometimes necessary.*/
+          //----------------------------------------------------------------------------------------
             HMENU hMenu, hSubMenu;
             HICON hIcon, hIconSm;
             hMenu = CreateMenu();
@@ -73,7 +74,8 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
             AppendMenu(hSubMenu, MF_STRING, ID_HELP_ABOUT, "&About");
             AppendMenu(hMenu, MF_STRING | MF_POPUP, (UINT_PTR)hSubMenu, "&Help");
 
-            SetMenu(hwnd, hMenu);
+            SetMenu(hwnd, hMenu); //COMMENT THIS OUT IF YOU WANT TO CREATE MENU FROM RESOURCE FILE
+            //-------------------------------------------------------------------------------
             //We can't use LoadIcon() at all because it will only load resources, not files
             hIcon = (HICON)LoadImage(NULL, "play.ico", IMAGE_ICON, 32, 32,
                               LR_LOADFROMFILE);

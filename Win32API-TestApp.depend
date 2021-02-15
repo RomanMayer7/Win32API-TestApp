@@ -4,7 +4,7 @@
 
 1613345137 d:\c_projects\win32api-testapp\resource.h
 
-1613345983 source:d:\c_projects\win32api-testapp\main.cpp
+1613350201 source:d:\c_projects\win32api-testapp\main.cpp
 	<windows.h>
 	<stdlib.h>
 	<stdio.h>
@@ -13,7 +13,7 @@
 1613336590 source:d:\c_projects\win32api-testapp\icon.rc
 	"resource.h"
 
-1613346157 source:d:\c_projects\win32api-testapp\myicon.rc
+1613350313 source:d:\c_projects\win32api-testapp\myicon.rc
 	"resource.h"
 	<windows.h>
 
