@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1613334047 source:d:\c_projects\win32api-testapp\icon_res.rc
+	"resource.h"
+
+1613345137 d:\c_projects\win32api-testapp\resource.h
+
+1613345983 source:d:\c_projects\win32api-testapp\main.cpp
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	"resource.h"
+
+1613336590 source:d:\c_projects\win32api-testapp\icon.rc
+	"resource.h"
+
+1613346157 source:d:\c_projects\win32api-testapp\myicon.rc
+	"resource.h"
+	<windows.h>
+
